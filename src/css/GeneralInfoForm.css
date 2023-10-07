@@ -1,0 +1,69 @@
+
+.GeneralInfoForm {
+  margin: 30px;
+
+  width: 100%;
+}
+
+.CarouselForm {
+  text-align: center;
+}
+
+/* App.css */
+.container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+ min-height: 100vh; /*Esto asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
+  text-align: center;
+}
+
+.centered-form {
+  width: 700px; /* Establece el ancho deseado para el formulario */
+  padding: 20px; /* Agrega relleno si es necesario */
+  border: 0px solid black; /* Agrega un borde si es necesario */
+  background-color: #fff; /* Cambia el fondo si es necesario */
+  height: auto;
+  text-align: center;
+  color: black;
+}
+
+.ant-form-item-required::before {
+  content: none !important; /* Oculta el asterisco rojo */
+}
+
+.TitleCard {
+  font-size: 21px;
+  padding-left: 50px;
+}
+
+.TitleCardSecundary {
+  font-size: 21px;
+  text-align: left;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  font-weight: 600;
+}
+
+
+.CardGeneralForm {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.NumberTitleCard {
+  color: white;
+  background-color: rgba(251, 176, 59, 1);
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.ant-form {
+  font-size: 160px; /* Ajusta el tamaño de fuente aquí */
+}
+
+.DataPickerClass {
+  width: "300px";
+}
